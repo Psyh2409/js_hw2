@@ -55,7 +55,7 @@ function validator(strng, bln) {
     } while (bln);
 }
 function _NaNNullEmpty(x) {
-    return isNaN(x) || x == null || x == '';
+    return isNaN(x) || !x;
 }
 function solution() {
     let a, b, operation, answer, result;
